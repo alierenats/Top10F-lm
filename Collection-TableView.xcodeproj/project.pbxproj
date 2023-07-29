@@ -13,6 +13,8 @@
 		07AD82DB2A7447B900F1139B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AD82D92A7447B900F1139B /* Main.storyboard */; };
 		07AD82DD2A7447BA00F1139B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AD82DC2A7447BA00F1139B /* Assets.xcassets */; };
 		07AD82E02A7447BA00F1139B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AD82DE2A7447BA00F1139B /* LaunchScreen.storyboard */; };
+		07AD82E82A7449DA00F1139B /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD82E72A7449DA00F1139B /* Movies.swift */; };
+		07AD82EC2A744E0F00F1139B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD82EB2A744E0F00F1139B /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		07AD82DC2A7447BA00F1139B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07AD82DF2A7447BA00F1139B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07AD82E12A7447BA00F1139B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AD82E72A7449DA00F1139B /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		07AD82EB2A744E0F00F1139B /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				07AD82DC2A7447BA00F1139B /* Assets.xcassets */,
 				07AD82DE2A7447BA00F1139B /* LaunchScreen.storyboard */,
 				07AD82E12A7447BA00F1139B /* Info.plist */,
+				07AD82E72A7449DA00F1139B /* Movies.swift */,
+				07AD82EB2A744E0F00F1139B /* MovieCell.swift */,
 			);
 			path = "Collection-TableView";
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				07AD82D82A7447B900F1139B /* ViewController.swift in Sources */,
 				07AD82D42A7447B900F1139B /* AppDelegate.swift in Sources */,
+				07AD82E82A7449DA00F1139B /* Movies.swift in Sources */,
+				07AD82EC2A744E0F00F1139B /* MovieCell.swift in Sources */,
 				07AD82D62A7447B900F1139B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
